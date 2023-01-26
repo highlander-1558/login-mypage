@@ -1,0 +1,41 @@
+.welcome-text {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.member-wrapper {
+  display: flex;
+  padding: 30px 50px;
+  border-bottom: grey solid 3px;
+}
+
+.profile-img {
+  height: 200px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 20px;
+  box-shadow: 0 0 5px grey;
+}
+
+.member-right-contents {
+  /*
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  */
+  margin-left: 50px;
+}
+.member-right-contents li {
+  padding: 20px 0;
+}
+.member-right-contents th {
+  text-align: left;
+}
+.member-right-contents td {
+  padding-left: 30px;
+}
+
+.comments {
+  padding: 10px 0;
+}/*# sourceMappingURL=mypage.css.map */

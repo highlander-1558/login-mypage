@@ -1,0 +1,31 @@
+.essential-mark {
+  display: inline-block;
+  padding: 0 3px;
+  border-radius: 3px;
+  background-color: #31A263;
+  color: white;
+}
+
+.confirm-table {
+  padding: 0 50px;
+}
+.confirm-table td, .confirm-table th {
+  padding: 15px 0;
+}
+.confirm-table th {
+  text-align: left;
+}
+.confirm-table td {
+  padding-left: 50px;
+}
+
+.text {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.decorated-link {
+  display: block;
+  color: blue;
+  padding-top: 30px;
+}/*# sourceMappingURL=register.css.map */

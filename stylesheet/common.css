@@ -1,0 +1,142 @@
+body {
+  min-height: 100vh;
+  font-size: 1.2rem;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.decorated-link {
+  text-decoration: underline;
+}
+
+.error-message {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3px;
+  background-color: #F2C4C4;
+  color: #D45E5D;
+}
+
+header {
+  position: relative;
+  height: 100px;
+  border-bottom: 3px grey solid;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.link-btn {
+  background-color: #31A263;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.login-toggle {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+main {
+  position: relative;
+  height: calc(100% - 100px - 50px);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  line-height: 50px;
+  border-top: 3px grey solid;
+  color: grey;
+  text-align: center;
+}
+
+.title {
+  border-bottom: #31A263 3px solid;
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 900px;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.input-wrapper {
+  display: block;
+  margin-top: 20px;
+  min-width: 50%;
+}
+
+.input-wrapper--checkbox label {
+  display: inline !important;
+}
+
+input, textarea {
+  display: block;
+  border: grey solid 1px;
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px;
+}
+
+textarea {
+  height: 5em;
+}
+
+input[type=file] {
+  border: none;
+  width: auto;
+  margin-top: unset;
+}
+
+input[type=checkbox] {
+  display: inline-block;
+  width: auto;
+}
+
+.btn-wrapper {
+  text-align: center;
+  padding: 20px 0;
+}
+.btn-wrapper form {
+  display: inline-block;
+}
+
+.submit-btn {
+  display: inline-block;
+  min-width: auto;
+  width: auto;
+  padding: 5px 70px;
+  background-color: #31A263;
+  color: white;
+}
+
+.submit-btn--cancel {
+  background-color: grey;
+}/*# sourceMappingURL=common.css.map */
